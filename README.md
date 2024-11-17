@@ -1,3 +1,7 @@
+## TODO
+
+1. Create sample with pywinauto
+
 ## Dev
 
 1. Install uv 
@@ -8,12 +12,19 @@
 3. In Windows > System > For developers, enable developer mode.
 5. In VS Code, install Flutter extension. Put the Flutter SDK in `C:\dev` or something
 6. Install Tesseract OCR for Windows ([download](https://github.com/UB-Mannheim/tesseract/wiki))
-7. `pip install -r requirements.txt`
+7. `uv venv` then `source .venv/Scripts/activate`
+7. `uv pip install -r requirements.txt`
 
 ### Visual Studio Code
 
 `Ctrl + Shift + P` and select `Ptyhon: Select Interpreter` so that Visual Studio can see packages.
 
+
+### Setting up
+
+``` bash
+uv venv
+```
 
 ### Working with uv
 

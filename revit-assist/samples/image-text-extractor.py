@@ -51,7 +51,7 @@ def main(page: ft.Page):
             draw = ImageDraw.Draw(draw_image)
 
             # OCR using pytesseract to get data grouped by line
-            custom_config = r'--psm 6'  # PSM 6: Assume a single uniform block of text
+            custom_config = r'--psm 3'  # PSM 6: Assume a single uniform block of text
             data = pytesseract.image_to_data(image, config=custom_config, output_type=pytesseract.Output.DICT)
 
             # Format the output

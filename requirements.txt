@@ -7,6 +7,7 @@ chardet==5.2.0
 charset-normalizer==3.4.0
 click==8.1.7
 colorama==0.4.6
+comtypes==1.4.8
 cookiecutter==2.6.0
 fastapi==0.115.5
 flet==0.24.1
@@ -32,6 +33,8 @@ pytesseract==0.3.13
 python-dateutil==2.9.0.post0
 python-dotenv==1.0.1
 python-slugify==8.0.4
+pywin32==308
+pywinauto==0.6.8
 pyyaml==6.0.2
 qrcode==7.4.2
 repath==0.9.0
